@@ -46,15 +46,25 @@ export default function Post(
                     <img className="post_profilePic" src={profileUrl} />
                     <p style={{ marginLeft: '8px' }}>{username}</p>
                 </div>
+{/* conditional delting */}
 
-                <button className="post_delete" onClick={deleteBtn}>Delete</button>
+{
+
+  user ? <button className="post_delete" onClick={deleteBtn}>Delete</button>  : <> </>
+}
+                {/* //<button className="post_delete" onClick={deleteBtn}>Delete</button> */}
+            
+            
+            
             </div>
+
+
             <div className="post_center">
                 <img className="post_photoUrl" src={photoUrl} />
             </div>
 
             <div >
-            <p><span style={{ fontFamily: 'Bahnschrift SemiBold',fontWeight: "bolder",fontSize:'22px', marginRight:"5px"}}>{username}</span>
+            <p className='caption'><span className="userName" style={{ fontWeight: "bolder",fontSize:'38px', marginRight:"10px"}}>{username}</span>
                  {caption}</p>
             </div>
             

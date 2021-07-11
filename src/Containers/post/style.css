@@ -46,7 +46,12 @@
     border-radius: 8px;
 }
 
-/* .captionComments{
+.caption{
     margin-top: 15px;
-     font-family: Bahnschrift ; 
-} */
+    font-family: 'Mate SC', serif;
+    font-size: 22px;
+} 
+
+.userName{
+    font-family: 'Cookie', cursive;
+}

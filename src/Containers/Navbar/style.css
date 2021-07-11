@@ -9,11 +9,28 @@
 }
 
 .title{
-    font-family: Segoe Script;
+  font-family: 'Rock Salt', cursive;
     font-size: 30px;
 }
 
 .navbar_img {
   height: 45px;
   border-radius: 8px;
+}
+
+.logout{
+  background-color: #f3f2ef;
+    max-width: 500px;
+    text-align: center;
+    padding: 8px 16px;
+    border-radius: 6px;
+    color: black;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: 'Comfortaa', cursive;
+}
+.detail_pane{
+  width: 250px;
+  display: flex;
+  justify-content: space-between;
 }

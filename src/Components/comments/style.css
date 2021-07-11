@@ -1,4 +1,12 @@
 .comment{
     margin-top: 20px;
-    font-family: Bahnschrift Light;
+    /* font-family: 'Lemonada', cursive; */
+}
+
+
+.cmt{
+    font-family: 'Markazi Text', serif;
+}
+.cmtName{
+    font-family: 'Patrick Hand', cursive;
 }
