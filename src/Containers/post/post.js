@@ -53,12 +53,12 @@ export default function Post(
                 <img className="post_photoUrl" src={photoUrl} />
             </div>
 
-            <div>
-            <p><span style={{fontWeight: "bolder", marginRight:"4px"}}>{username}</span>
+            <div >
+            <p><span style={{ fontFamily: 'Bahnschrift SemiBold',fontWeight: "bolder",fontSize:'22px', marginRight:"5px"}}>{username}</span>
                  {caption}</p>
             </div>
             
-            
+            {/* <p className="captionComments" >Comments</p> */}
             {/* comments */}
             {comments ? (
                 comments.map((comment) => (
@@ -69,6 +69,7 @@ export default function Post(
             )}
 
             {/* comment i/p */}
+           
             {user ? <CommentInput comments={comments} id={id} /> : <></>}
             
         </div>

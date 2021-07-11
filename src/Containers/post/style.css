@@ -18,6 +18,7 @@
 .post_header_details{
     display: flex;
     align-items: center;
+    font-family: 'Inconsolata', monospace;
     
 }
 
@@ -30,9 +31,11 @@
 
     cursor: pointer;
     background-color: whitesmoke;
+    font-family: 'Inconsolata', monospace;
 }
 .post_delete :focus{
  outline: none;
+ 
  
 }
 
@@ -40,4 +43,10 @@
     width: 100%;
     object-fit: cover;
     margin: 16px 2px;
+    border-radius: 8px;
 }
+
+/* .captionComments{
+    margin-top: 15px;
+     font-family: Bahnschrift ; 
+} */

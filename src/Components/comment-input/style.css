@@ -9,17 +9,19 @@
   max-width: 550px;
   width: 100%;
   resize: none;
-  margin: 8px 0px;
+  margin: 20px 0px;
   
 }
 
 .commentInput_textarea:focus {
   outline: none;
+  
 }
 
 .commentInput_btn {
   background-color: whitesmoke;
   border: none;
+  font-family: 'M PLUS Rounded 1c', sans-serif;
 }
 
 .commentInput__btn:focus {

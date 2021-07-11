@@ -100,7 +100,7 @@ export default function CommentInput({ comments, id }) {
       ></textarea>
 
       <button onClick={addComment} className="commentInput_btn">
-        Post
+        Add Comment
       </button>
     </div>
   );

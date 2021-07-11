@@ -115,7 +115,7 @@ export default function Createpost() {
                 )
                     : (<div>
                         <SignIn />
-                        <p>To post & comment</p> </div>)
+                        <p className="condition">To post & comment</p> </div>)
             }
 
 
