@@ -1,0 +1,27 @@
+
+.commentInput {
+  display: flex;
+  justify-content: space-between;
+}
+
+.commentInput_textarea {
+  border: none;
+  max-width: 550px;
+  width: 100%;
+  resize: none;
+  margin: 8px 0px;
+  
+}
+
+.commentInput_textarea:focus {
+  outline: none;
+}
+
+.commentInput_btn {
+  background-color: whitesmoke;
+  border: none;
+}
+
+.commentInput__btn:focus {
+  outline: none;
+}
